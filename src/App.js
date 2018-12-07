@@ -43,7 +43,8 @@ class App extends Component {
           </header>
           <div className="modal-content">
             <h1>Dear Gaby,</h1>
-            <p>This year for Christmas, you get to pick what you want to do for some special time with me!
+            <p>This year for Christmas, 
+              you get to pick what you want to do for some special time with me!
             </p>
           </div>
         </Modal>
