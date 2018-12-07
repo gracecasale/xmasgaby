@@ -1,0 +1,85 @@
+* {
+
+}
+h1 {
+  text-align: center;
+}
+.App-header {
+  width: 80vw;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+}
+
+.modal {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  border: 1px solid #E58C56; 
+  background-color: white; 
+}
+
+.x-button {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-width: 1px;
+  border-color: #E58C56;
+  background-color: #FCE5AF;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+  background: #102b10;
+  align-content: center;
+}
+
+.drawing-holder {
+  height: 100vh;
+  align-content: center;
+  color: white;
+}
+
+.santa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+/*iPhone 5 */
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+}
+
+/*iPhone 6/7/8 */
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+
+}
+
+/*iPhone 6/7/8Plus */
+@media only screen 
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+
+}
