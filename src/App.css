@@ -12,15 +12,14 @@ h1 {
 }
 
 .modal {
-	width: 100vw;
-	height: 100vh;
+	height: 97.5vh;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-  border: 1px solid #E58C56; 
+  border: 10px dashed red; 
   background-color: white; 
 }
 
@@ -30,26 +29,37 @@ h1 {
   display: flex;
   justify-content: center;
   border: solid;
-  border-width: 1px;
-  border-color: #E58C56;
-  background-color: #FCE5AF;
+  border-width: 5px;
+  border-color: red;
+  background-color: white;
+}
+
+.App-main  {
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.signature-column {
+  width: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .container {
+  height: 100vh;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
-  align-content: center;
-  background: #102b10;
-  align-content: center;
-}
-
-.drawing-holder {
-  height: 100vh;
-  align-content: center;
-  color: white;
+  background: #102b10;  
 }
 
 .santa {
@@ -62,6 +72,9 @@ h1 {
   align-content: center;
 }
 
+.heart {
+  height: 2rem;
+}
 
 /*iPhone 5 */
 @media only screen 

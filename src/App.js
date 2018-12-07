@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from "react-modal";
 import santa from './santa.png';
+import heart from './heart.png';
 import './App.css';
 
 const appElement = document.getElementById('root');
@@ -43,17 +44,23 @@ class App extends Component {
           </header>
           <div className="modal-content">
             <h1>Dear Gaby,</h1>
-            <p>This year for Christmas, 
+            <p>This year for Christmas,
               you get to pick what you want to do for some special time with me!
             </p>
+            <div className="signature">
+              <div className="signature-column">
+                <img className="heart" src={heart} alt="emoji" />
+              <p>Your Ati</p>
+              </div>
+            </div>
           </div>
         </Modal>
         <main className="App-main">
-            <div className="drawing-holder" onClick={this.handleModalOpen}>
-              <h1>Merry Christmas Gaby!</h1>
-              <img className="santa" src={santa} alt="emoji" />
-            </div>
-          </main>
+          <div className="" onClick={this.handleModalOpen}>
+            <h1>Merry Christmas Gaby!</h1>
+            <img className="santa" src={santa} alt="emoji" />
+          </div>
+        </main>
         <footer className="App-footer">
         </footer>
       </div>
