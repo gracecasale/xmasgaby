@@ -1,9 +1,19 @@
 * {
+}
 
-}
-h1 {
+.dear-line {
   text-align: center;
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: 100;
 }
+
+.title {
+  text-align: center;
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
 .App-header {
   width: 80vw;
   display: flex;
@@ -21,6 +31,11 @@ h1 {
 	align-content: center;
   border: 10px dashed red; 
   background-color: white; 
+  font-family: 'Arvo', serif;
+}
+
+.modal-content {
+  margin: 5rem;
 }
 
 .x-button {
@@ -44,10 +59,11 @@ h1 {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  padding-right: 2rem;
 }
 
 .signature-column {
-  width: 4rem;
+  width: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -66,7 +82,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 20rem;
+  height: 12rem;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -80,19 +96,94 @@ h1 {
 @media only screen 
 and (min-device-width: 320px)
 and (max-device-width: 568px) {
-
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title {
+    font-weight: 200;
+    font-size: 2rem;
+  }
+  .santa {
+    height: 6rem;
+  }
+  .modal-content {
+    margin: 1rem;
+  }
+  .modal {
+    height: 98.5vh;
+    border: 5px dashed red; 
+  }
+  .App-header {
+    padding-right: 1rem;
+  }
+  .x-button {
+    width: 2rem;
+    height: 2rem;
+    border-width: 1px;
+  }
 }
 
 /*iPhone 6/7/8 */
 @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
-
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title {
+    font-weight: 200;
+    font-size: 2rem;
+  }
+  .santa {
+    height: 6rem;
+  }
+  .modal-content {
+    margin: 1rem;
+  }
+  .modal {
+    height: 98.5vh;
+    border: 5px dashed red; 
+  }
+  .App-header {
+    padding-right: 1rem;
+  }
+  .x-button {
+    width: 2rem;
+    height: 2rem;
+    border-width: 1px;
+  }
 }
 
 /*iPhone 6/7/8Plus */
 @media only screen 
 and (min-device-width: 414px)
 and (max-device-width: 736px) {
-
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title {
+    font-weight: 200;
+    font-size: 2rem;
+  }
+  .santa {
+    height: 6rem;
+  }
+  .modal-content {
+    margin: 2rem;
+  }
+  .modal {
+    height: 98.5vh;
+    border: 5px dashed red; 
+  }
+  .App-header {
+    padding-right: 1rem;
+  }
+  .x-button {
+    width: 2rem;
+    height: 2rem;
+    border-width: 1px;
+  }
 }
