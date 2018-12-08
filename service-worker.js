@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/xmasgaby/precache-manifest.21a269e47a68921fbcd135858fc63829.js"
+  "/xmasgaby/precache-manifest.b0fd94dac7fa9b912540a404a3e9137f.js"
 );
 
 workbox.clientsClaim();

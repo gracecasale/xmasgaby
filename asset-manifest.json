@@ -1,13 +1,15 @@
 {
-  "main.css": "/xmasgaby/static/css/main.8b8e2caa.chunk.css",
-  "main.js": "/xmasgaby/static/js/main.f1a6a81b.chunk.js",
-  "main.js.map": "/xmasgaby/static/js/main.f1a6a81b.chunk.js.map",
-  "static/js/1.324b6cf3.chunk.js": "/xmasgaby/static/js/1.324b6cf3.chunk.js",
-  "static/js/1.324b6cf3.chunk.js.map": "/xmasgaby/static/js/1.324b6cf3.chunk.js.map",
+  "main.css": "/xmasgaby/static/css/main.879de0ba.chunk.css",
+  "main.js": "/xmasgaby/static/js/main.3e4c32ed.chunk.js",
+  "main.js.map": "/xmasgaby/static/js/main.3e4c32ed.chunk.js.map",
+  "static/js/1.1f85de5a.chunk.js": "/xmasgaby/static/js/1.1f85de5a.chunk.js",
+  "static/js/1.1f85de5a.chunk.js.map": "/xmasgaby/static/js/1.1f85de5a.chunk.js.map",
   "runtime~main.js": "/xmasgaby/static/js/runtime~main.866e6b12.js",
   "runtime~main.js.map": "/xmasgaby/static/js/runtime~main.866e6b12.js.map",
-  "static/css/main.8b8e2caa.chunk.css.map": "/xmasgaby/static/css/main.8b8e2caa.chunk.css.map",
+  "static/css/main.879de0ba.chunk.css.map": "/xmasgaby/static/css/main.879de0ba.chunk.css.map",
+  "static/media/santa.png": "/xmasgaby/static/media/santa.c05ef5a0.png",
+  "static/media/heart.png": "/xmasgaby/static/media/heart.4f24e789.png",
   "index.html": "/xmasgaby/index.html",
-  "precache-manifest.21a269e47a68921fbcd135858fc63829.js": "/xmasgaby/precache-manifest.21a269e47a68921fbcd135858fc63829.js",
+  "precache-manifest.b0fd94dac7fa9b912540a404a3e9137f.js": "/xmasgaby/precache-manifest.b0fd94dac7fa9b912540a404a3e9137f.js",
   "service-worker.js": "/xmasgaby/service-worker.js"
 }
