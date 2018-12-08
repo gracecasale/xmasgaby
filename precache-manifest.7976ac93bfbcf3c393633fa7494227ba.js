@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/xmasgaby/static/js/runtime~main.866e6b12.js"
   },
   {
-    "revision": "3e4c32edd808130fab6c",
-    "url": "/xmasgaby/static/js/main.3e4c32ed.chunk.js"
+    "revision": "0ef620ea9539f3c50cc6",
+    "url": "/xmasgaby/static/js/main.0ef620ea.chunk.js"
   },
   {
     "revision": "1f85de5ac5d4c40aed47",
     "url": "/xmasgaby/static/js/1.1f85de5a.chunk.js"
   },
   {
-    "revision": "3e4c32edd808130fab6c",
-    "url": "/xmasgaby/static/css/main.879de0ba.chunk.css"
+    "revision": "0ef620ea9539f3c50cc6",
+    "url": "/xmasgaby/static/css/main.f9eafe9b.chunk.css"
   },
   {
-    "revision": "61ae020220b05f4f7e5e70ea35e9d747",
+    "revision": "f9c2fbba43526e38608312f7760d9265",
     "url": "/xmasgaby/index.html"
   }
 ];
